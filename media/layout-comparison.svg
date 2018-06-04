@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 342.3 306">
+  <style>
+    .st0{font-family:sans-serif}.st1{font-size:12px}.st2{font-family:monospace}.st3{fill:#00a651}.st4,.st5{fill:none;stroke:#000;stroke-miterlimit:10}.st5{stroke:#f26522}
+  </style>
+  <text transform="rotate(-90 57.3 41)">
+    <tspan x="0" y="0" class="st0 st1">Default</tspan><tspan x="-14.5" y="14.4" class="st0 st1">CSS Columns</tspan>
+  </text>
+  <text class="st2 st1" transform="rotate(-90 128.4 97.7)">
+    <tspan x="-9" y="0">x-columns</tspan>
+  </text>
+  <text transform="translate(74 16)">
+    <tspan x="0" y="0" class="st0 st1">Horizontal</tspan><tspan x="-15.7" y="14.4" class="st2 st1">writing-mode</tspan>
+  </text>
+  <text transform="translate(241.3 16)">
+    <tspan x="0" y="0" class="st0 st1">Vertical</tspan><tspan x="-20.9" y="14.4" class="st2 st1">writing-mode</tspan>
+  </text>
+  <path d="M50 46.4h22v90H50zM76 46.4h22v90H76zM102 46.4h22v90h-22zM128 46.4h22v90h-22z" class="st3"/>
+  <path d="M167.3 46v68" class="st4"/>
+  <path d="M167.3 40a30.7 30.7 0 0 1-4.8 8.5l4.8-1.7 4.8 1.7a30.7 30.7 0 0 1-4.8-8.5zM167.3 120a30.7 30.7 0 0 0-4.8-8.5l4.8 1.7 4.8-1.7a30.7 30.7 0 0 0-4.8 8.5z"/>
+  <path d="M50 166.4h20.3v67.1H50zM74 166.4h20.3v67.1H74zM98 166.4h20.3v67.1H98zM122.1 166.4h20.3v67.1h-20.3zM147 166.4h20.3v67.1H147z" class="st3"/>
+  <path d="M40 40h120v80H40z" class="st4"/>
+  <path d="M46 44h108v72H46z" class="st5"/>
+  <g>
+    <path d="M46 248h108" class="st4"/>
+    <path d="M40 248c2.8 1.1 6.4 2.9 8.5 4.8l-1.7-4.8 1.7-4.8A30.7 30.7 0 0 1 40 248zM160 248a30.7 30.7 0 0 0-8.5 4.8l1.7-4.8-1.7-4.8c2.1 1.9 5.7 3.7 8.5 4.8z"/>
+  </g>
+  <g>
+    <path d="M40 160h120v80H40z" class="st4"/>
+    <path d="M46 164h125v72H46z" class="st5"/>
+  </g>
+  <g>
+    <path d="M259.7 20h20v120h-20z" class="st3" transform="rotate(90 269.7 80)"/>
+    <path d="M259.7 43.6h20v120h-20z" class="st3" transform="rotate(90 269.7 103.6)"/>
+    <path d="M259.7-3.6h20v120h-20z" class="st3" transform="rotate(90 269.7 56.4)"/>
+  </g>
+  <g>
+    <path d="M251 146.3h18V247h-18z" class="st3" transform="rotate(90 260 196.6)"/>
+    <path d="M251 167.5h18v100.7h-18z" class="st3" transform="rotate(90 260 217.8)"/>
+    <path d="M251 188.7h18v100.7h-18z" class="st3" transform="rotate(90 260 239)"/>
+    <path d="M251 125.1h18v100.7h-18z" class="st3" transform="rotate(90 260 175.4)"/>
+  </g>
+  <g>
+    <path d="M200 40h120v80H200z" class="st4"/>
+    <path d="M206 44h108v72H206z" class="st5"/>
+  </g>
+  <g>
+    <path d="M206 128.7h108" class="st4"/>
+    <path d="M200 128.7c2.8 1.1 6.4 2.9 8.5 4.8l-1.7-4.8 1.7-4.8a30.7 30.7 0 0 1-8.5 4.8zM320 128.7a30.7 30.7 0 0 0-8.5 4.8l1.7-4.8-1.7-4.8c2.1 1.9 5.7 3.7 8.5 4.8z"/>
+  </g>
+  <g>
+    <path d="M329.7 166v68" class="st4"/>
+    <path d="M329.7 160a30.7 30.7 0 0 1-4.8 8.5l4.8-1.7 4.8 1.7c-2-2.1-3.8-5.7-4.8-8.5zM329.7 240a30.7 30.7 0 0 0-4.8-8.5l4.8 1.7 4.8-1.7c-2 2.1-3.8 5.7-4.8 8.5z"/>
+  </g>
+  <g>
+    <path d="M104.8 270.8h12v8h-12z" class="st4"/>
+    <path d="M104.8 286.9h12v8h-12z" class="st5"/>
+    <text class="st0 st1" transform="translate(121.2 278.8)">
+      Viewport
+    </text>
+    <text class="st0 st1" transform="translate(121.2 294.1)">
+      Element
+    </text>
+  </g>
+  <g>
+    <path d="M201.5 270.8h12v8h-12z" class="st3"/>
+    <path d="M209.8 288.6l-4.6 5.9" class="st4"/>
+    <path d="M213.5 283.9a29.3 29.3 0 0 1-9 3.8l4.8 1.6 2.7 4.3c-.2-2.9.6-6.8 1.5-9.7zM201.5 299.2c.9-2.9 1.7-6.8 1.5-9.7l2.7 4.3 4.8 1.6a32 32 0 0 0-9 3.8z"/>
+    <text class="st0 st1" transform="translate(217.8 278.3)">
+      Column
+    </text>
+    <text class="st0 st1" transform="translate(217.8 293.7)">
+      Scroll Direction
+    </text>
+  </g>
+  <g>
+    <path d="M200 160h120v80H200z" class="st4"/>
+    <path d="M206 164h108v87.3H206z" class="st5"/>
+  </g>
+</svg>

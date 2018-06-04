@@ -1,7 +1,9 @@
+//@ts-ignore (No typings found)
 import resolve from 'rollup-plugin-node-resolve';
+//@ts-ignore (No typings found)
 import typescript from 'rollup-plugin-typescript2';
 
-export default {
+const config = {
   input: 'src/main.ts',
   output: [{
     file: 'dist/x-columns.cjs.js',
@@ -23,4 +25,6 @@ export default {
       browser: true
     })
   ]
-}
+};
+
+export default config;
