@@ -1,6 +1,6 @@
 {
   "name": "x-columns",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/x-columns.es6.js",
   "module": "dist/x-columns.es6.js",
