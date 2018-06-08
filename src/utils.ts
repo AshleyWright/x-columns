@@ -19,3 +19,5 @@ export function throttle(callback : Function, limit : number) {
     }
   }
 }
+
+export const css = String.raw;
