@@ -1,5 +1,5 @@
 import { parseCSSUnit, CSSUnitValue } from "./parseCSSUnit";
-import { throttle } from "./utils";
+import { css, throttle } from "./utils";
 
 const xColumned = new WeakSet<Element>();
 
@@ -78,24 +78,33 @@ export function xColumnsAll() {
     .forEach(el => {
       if (!(el instanceof HTMLElement)) return false;
       const styleMap = getComputedStyle(el);
-      if (styleMap.getPropertyValue("--x-columns") == "auto") return xColumns(el);
+      if (/^\s*auto\s*$/.test(styleMap.getPropertyValue("--x-columns"))) return xColumns(el);
       if (xColumned.has(el)) {
         const writingMode = styleMap.getPropertyValue("writing-mode");
         if (~["tb", "tb-rl", "vertical-rl", "vertical-lr"].indexOf(writingMode))
-          el.style.removeProperty('height');
+          el.style.removeProperty("height");
         else
-          el.style.removeProperty('width');
+          el.style.removeProperty("width");
       }
     });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  if (CSS && (CSS as any).registerProperty) {
     (CSS as any).registerProperty({
-        name: "--x-columns",
-        syntax: "auto | none",
-        initialValue: "none",
-        inherits: false
+      name: "--x-columns",
+      syntax: "auto | none",
+      initialValue: "none",
+      inherits: false
     });
-    window.addEventListener('resize', throttle(xColumnsAll, 100));
-    xColumnsAll();
+  } else {
+    const style = document.createElement("style");
+    style.textContent = css
+      `*, *::before, *::after {
+        --x-columns: none;
+      }`;
+    document.head.appendChild(style);
+  }
+  window.addEventListener("resize", throttle(xColumnsAll, 100));
+  xColumnsAll();
 });
