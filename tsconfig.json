@@ -3,7 +3,9 @@
     "module": "es6",
     "noImplicitAny": true,
     "sourceMap": true,
+    "rootDir": "src",
     "declaration": true,
+    "declarationDir": "dist",
     "lib": ["dom", "es6"]
   }
 }

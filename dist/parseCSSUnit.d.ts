@@ -3,6 +3,15 @@ export interface CSSUnitValue {
     value: number;
     unit: CSSUnit;
 }
+/**
+ * Parses a string of a css unit value into an object with
+ * properties `value` and `unit`.
+ *
+ * @export
+ * @param {string} str
+ * @returns {CSSUnitValue}
+ * @throws Error when encountering an unrecognised css value
+ */
 export declare function parseCSSUnit(str: {
     toString(): string;
 }): CSSUnitValue;
