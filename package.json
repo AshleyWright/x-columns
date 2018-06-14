@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/x-columns.umd.js",
   "module": "dist/x-columns.es6.js",
+  "types": "dist/main.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "rimraf dist releases && mkdirp dist releases",
