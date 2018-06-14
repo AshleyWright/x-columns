@@ -5,7 +5,7 @@ x-columns attempts to add an alternative overflow/layout mode for column based d
 
 Where the content overflows the element, instead of forcing the user to scroll up and down the page on column break, add more columns.
 
-<img alt="Diagram detailing how x-columns changes the overflow of CSS columns" src="media/layout-comparison.svg" width="500px" align="center">
+<img alt="Diagram detailing how x-columns changes the overflow of CSS columns" src="https://github.com/AshleyWright/x-columns/raw/master/media/layout-comparison.svg?sanitize=true" width="500px" align="center">
 
 ## Getting Started
 1. Either install the package from npm by running:
