@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/AshleyWright/x-columns#readme",
   "devDependencies": {
-    "rollup": "^0.59.4",
+    "rollup": "^0.68.2",
     "rollup-plugin-node-resolve": "^3.3.0",
     "rollup-plugin-typescript2": "^0.14.0",
     "typescript": "^2.9.1"
